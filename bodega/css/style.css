@@ -1,0 +1,92 @@
+/* selectores  id # . */
+
+body{
+    background-color: aquamarine;
+}
+#idExterno{
+    background: pink;
+}
+.claseExterna{
+    background:  brown;
+}
+.combina{
+    background-color: plum;
+    color: cyan;
+    text-align: center;
+}
+
+.miImg{
+    border:5px solid black;
+}
+/* link */
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+/* tabla */
+table {
+    background-color: aliceblue;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #978585;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+/* formularios */
+.box{
+  border: 2px solid plum;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#registro{
+  background: #dddddd;
+  padding: 5%;
+}
+label{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color:rgb(190, 28, 28);
+}
+input {
+  width: 80%;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
+.button{
+  border:2px solid white;
+  color:white;
+  border-radius: 30px;
+  margin-left:90%;
+  width: 70px;
+  height: 30px;
+  background: #65df35;
+}

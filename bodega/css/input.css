@@ -1,0 +1,213 @@
+/* estilo general del body de inputs */
+
+body{
+    background-color: #38425C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* clase para los titulos centrales */
+.titulo{
+    background-color: #4760a1;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    color:white;
+    border-radius: 20px;
+}
+/* estilo para una caja para el formulario */
+.box{
+    /* display: block; */
+    margin-top: 5%;
+    background-color: #22293b;
+    border:2px solid #e3e64e;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding: 25px;
+    height: 350px;
+    box-shadow: 10px 5px 5px black;
+    
+}
+/* caja tipo 2  */
+.box2{
+    /* display: block; */
+    margin:4%;
+    background-color: #22293b;
+    border:2px solid #16a085;
+    width: 40%;
+    height: 450px;
+    border-radius: 20px;
+    float:left;
+    
+}
+/* caja tipo 3  */
+.box3{
+    /* display: block; */
+    margin:4%;
+    background-color: #22293b;
+    border:2px solid #16a085;
+    width: 40%;
+    height: 450px;
+    border-radius: 20px;
+    float:left;
+    text-align: center;
+    color: white;
+    
+}
+/* caja para contener botones */
+.boxmin{
+    /* border:2px solid #e3e64e; */
+    margin-top: 20px;
+    width: 10%;
+    float: left;
+    margin-left: 75%;
+ 
+  
+
+}
+.boxmin2{
+    /* border:2px solid #e3e64e; */
+    margin-top: 20px;
+    width: 10%;
+    float:left
+  
+
+}
+label{
+    color: #e6e93a;
+    font-family: 'Roboto';
+    font-size: 20px;
+    
+}
+input[type="number"], input[type="email"],
+input[type="text"],input[type="password"]{
+    font: 'Arial Narrow Bold', sans-serif;
+    background: none;
+    border:none;
+    border-bottom: 2px solid #e6e93a;
+    outline: none;
+    width: 80%;
+    margin-top: 20px;
+    color:orangered;
+    font-size: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+ button{
+    margin-top: 30px;
+    background: #e3e64e;
+    width: 80px;
+    height: 80px;
+    margin-left:10%;
+    border:2px solid #22293b;
+    border-radius: 50px;
+    outline:none;
+    box-shadow: 5px 5px 5px rgb(55, 68, 45);
+    
+}
+
+
+button:hover{
+    margin-top: 20px;
+    background: #e6924e;
+    width: 90px;
+    height: 90px;
+    margin-left:10%;
+    border:2px solid #e3e64e;
+    border-radius: 50px;
+    outline:none;
+    color:#e3e64e;
+    font-size: 20px;
+    
+   
+}
+/* radio botones y check */
+ul{
+    list-style: none;
+    border-left:3px solid #e3e64e;
+    margin-left:40px;
+
+}
+li{
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+
+label div{
+	width:23px;
+	height:23px;
+	display:inline-block;
+	border:2px solid #fff;
+	text-align:center;
+	line-height:20px;
+	margin-right:6px;	
+	border-radius:3px;
+	cursor:pointer;	
+}
+
+label i{ font-size:16px;	opacity:0 }
+label:hover div{ background:#16a085; }
+input:checked+label i{ opacity:1; }
+input:checked+label div{ background:#16a085; }
+
+input[type="radio"]{
+    display: none;
+}
+#radio{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius:50px;
+}
+
+
+/* listas */
+
+
+  /* Custom Select */
+.selectdiv {
+    margin-left:15%;
+    outline: none;
+    border:none;
+    position: relative;
+    display: flex;
+    width: 15em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+select {
+    border:none;
+    outline: none;
+    flex: 1;
+    padding: 0 .5em;
+    color: rgb(240, 237, 76);
+    cursor: pointer;
+    background-color:#2c3e50;
+    font-size: 20px;
+}
+/* Arrow */
+.selectdiv::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+.selectdiv:hover{
+    color: #f39c12;     
+}
+  

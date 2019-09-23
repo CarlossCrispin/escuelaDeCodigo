@@ -1,0 +1,13 @@
+body{
+    background-color: cadetblue;
+}
+
+.principal{
+    border: 5px dotted white;
+    background-color: rgb(76, 108, 109);
+    text-align: center;
+}
+
+p{
+    cursor: pointer;
+}

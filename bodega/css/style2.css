@@ -1,0 +1,148 @@
+/* paleta de colores
+#FF5733 naranja
+#FFBD33 amarillo
+#DBFF33 verde 
+#33FF57 verde 2
+#33FFBD 
+#406374
+#425d8f azul 
+
+*/
+
+
+body{
+    background-color: #425d8f ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+h1{
+    background-color: #FF5733 ;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 15px;
+    color: antiquewhite;
+
+}
+
+.box{
+    background-color: #37393b;
+    border:2px solid #f4f5f0;
+    width: 80%;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+label{
+    font-size: 15px;
+    color:#c9f32f;
+    padding: 15px;
+}
+
+
+
+
+input{
+    width: 80%;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: rgb(221, 144, 72);
+    outline: none;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(247, 251, 187);
+}
+
+
+.myButton{
+    margin-top: 25PX;
+    background-color: #c9f32f;
+    width: 80px;
+    height: 80px;
+    border: #37393b solid 2px;
+    border-radius: 50px;
+    margin-left: 90%; 
+}
+
+.myButton:hover{
+    background-color: #f3c52f;
+    width: 90px;
+    height: 90px;
+    border: #37393b solid 2px;
+    border-radius: 50px;
+    margin-left: 90%;
+    font-size: 20px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.box{
+    background-color: #37393b;
+    border:2px solid #f4f5f0;
+    width: 80%;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+
+label{
+    font-size: 15px;
+    color:#c9f32f;
+    padding: 15px;
+}
+input[type="text"] ,input[type="email"] {
+    width: 60%;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: rgb(221, 144, 72);
+    outline: none;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(247, 251, 187);
+}
+
+.myButton{
+    background-color: #c9f32f;
+    width: 80px;
+    height: 80px;
+    border: #37393b solid 2px;
+    border-radius: 50px;
+   margin-left: 90%
+}
+
+.myButton:hover{
+    background-color: #f3c52f;
+    width: 90px;
+    height: 90px;
+    border: #37393b solid 2px;
+    border-radius: 50px;
+   margin-left: 90%
+} */

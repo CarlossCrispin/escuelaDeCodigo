@@ -1,0 +1,30 @@
+body{
+   background-color: #639C8F; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.titulo{
+    background-color: #47a169;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    color:white;
+    border-radius: 20px;
+}
+
+.box{
+    /* display: block; */
+    margin-top: 5%;
+    background-color: #22293b;
+    border:2px solid #e3e64e;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding: 25px;
+    height: 350px;
+    box-shadow: 10px 5px 5px black;
+    
+}
+.imagen{
+    width: 100%;
+}

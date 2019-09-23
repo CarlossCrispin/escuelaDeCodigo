@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>tablas</title>
+</head>
+
+<body>
+    <h1 class="combina">Tablas</h1>
+    <table border="1">
+        <caption>Titulo de la tabla</caption>
+        <tr>
+            <th>Col.Cab.1</th>
+            <th>Col.Cab.2</th>
+        </tr>
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="2">
+        <caption>Tabla con combinación de columnas</caption>
+        <tr>
+            <th colspan="2">Celda Combinada</th>
+            <th>Celda Normal</th>
+            <th colspan="2">Celda Combinada>/th>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+            <td>C4</td>
+            <td>C5</td>
+        </tr>
+        <tr>
+            <td>C6</td>
+            <td>C7</td>
+            <td>C8</td>
+            <td colspan="2">C9 Comb.</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <caption>Tabla con combinación de filas</caption>
+        <tr>
+            <th>Celda 1</th>
+            <th>Celda 2</th>
+            <th>Celda 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Celda Combinada</td>
+            <td>Celda 5</td>
+            <td rowspan="2">Celda Combinada</td>
+        </tr>
+        <tr>
+            <td>Celda 7</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+    <hr>
+    <table style="width:100%">
+        <tr>
+            <th>Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>55577854</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+    </table>
+</body>
+
+</html>

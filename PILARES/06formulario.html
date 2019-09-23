@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/input.css">
+
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1 class="titulo">Formularios</h1>
+    <hr>
+    <div class="box">
+        <form action="">
+            <label for="nombre">NOMBRE :</label>
+            <input type="text" name="nombre" id="nombre" autocomplete="off" required placeholder="ingresa tu nombre">
+            <br>
+            <label for="edad">EDAD :</label>
+            <input type="number" name="edad" id="edad" min="1" max="110" required>
+            <br>
+            <label for="email">EM@IL :</label>
+            <input type="email" name="email" id="email" autocomplete="off" required>
+            <br>
+            <label for="password">PASSWORD :</label>
+            <input type="password" name="password" id="password" required minlength=8 maxlength="15">
+            <br>
+            <div class="boxmin">
+
+                <button type="reset">Borrar</button>
+
+            </div>
+            <div class="boxmin2">
+
+                <button>registro</button>
+
+            </div>
+
+        </form>
+    </div>
+    <div class="box2">
+        <h2 class="titulo">Checkbox</h2>
+        <br>
+        <form action="">
+     
+            <ul>
+                <li>
+                    <div>
+                        <input type="checkbox" id="check1" checked>
+                        <label for="check1">
+                            <div><i class="fa fa-check"></i></div> I like AGUA!
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="check2" checked/>
+                        <label for="check2">
+                            <div><i class="fa fa-check"></i></div> I like REFRESCO!
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="check3" checked/>
+                        <label for="check3">
+                            <div>
+                                <i class="fa fa-check"></i>
+                            </div> 
+                            I like CAFE!
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox"  value="masculino" id="check4" checked/>
+                        <label for="check4">
+                            <div><i class="fa fa-check"></i></div> I like LECHE!
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <div class="boxmin">
+
+                <button>registro</button>
+
+            </div>
+        </form>
+    </div>
+    <div class="box2">
+        <h2 class="titulo">Radio button</h2>
+        <br>
+        <form action="">
+
+            <ul>
+                <li>
+                    <div>
+
+                        <input type="radio" name="gender" value="masculino" id="radio1">
+                        <label for="radio1">
+                            <div id="radio"><i class="fa fa-check"></i></div> Masculino
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="radio" name="gender" value="femenino" id="radio3" checked>
+                        <label for="radio3">
+                            <div id="radio"><i class="fa fa-check"></i></div> Femenino
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="radio" name="gender" value="otro" id="radio2">
+                        <label for="radio2">
+                            <div id="radio"><i class="fa fa-check"></i></div> Otro
+                        </label>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="boxmin">
+
+                <button>registro</button>
+
+            </div>
+        </form>
+    </div>
+
+    <div class="box3">
+        <h2 class="titulo">Lista deplegable</h2>
+        <div class="selectdiv">
+            <select name="slct" id="slct">
+              <option selected disabled>elige una opcion ...</option>
+              <option value="1">HTML:5</option>
+              <option value="2">CSS</option>
+              <option value="3">JAVASCRIPT</option>
+            </select>
+          </div>
+        <hr>
+        <br>
+        <br>
+        <div >
+            <select name="cars" size="4" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat" selected>Fiat</option>
+                <option value="audi">Audi</option>
+                <!-- <option value="audi" selected>Audi</option> -->
+            </select>
+        </div>
+    </div>
+    <div class="box3">
+        <h2 class="titulo">Archivo</h2>
+        <form action="">
+            selecciona un archivo: <input type="file" name="myFile"><br><br>
+            <input type="submit">
+    </div>
+</body>
+
+</html>

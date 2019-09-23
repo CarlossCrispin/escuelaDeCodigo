@@ -1,0 +1,68 @@
+<!DOCTYPE html:5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formularios</title>
+</head>
+
+</body>
+<!-- <p id="algo">&nbsp;</p>
+<form name="form1">
+    <input type="button" value="aceptar" onClick="presionar()">
+</form> -->
+<h1 class="combina">Formulario</h1>
+<h2>Input Button</h2>
+
+<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+<div class="box">
+    <form action="" id="registro">
+        <div>
+            <label for="nombre">NOMBRE :</label>
+            <input type="text" name="nombre" id="nombre" class="input">
+        </div>
+        <br>
+        <div>
+            <label for="email">EM@IL :</label>
+            <input type="email" name="email" id="email" class="input">
+        </div>
+        <br>
+        <button type="submit" class="button" id="button">
+            Registrar
+        </button>
+    </form>
+
+</div>
+<hr>
+<div>
+    <form action="">
+        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</div>
+<hr>
+<p>Apellidos:
+    <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos">
+</p>
+<hr>
+<p>Usuario: <input type="text" name="usuario" maxlength="6"></p>
+
+<p>Contraseña: <input type="password" name="password" minlength="6"></p>
+
+
+<hr>
+<!-- http://www.mclibre.org/consultar/htmlcss/html/html-formularios.html -->
+</body>
+</html>
+<script src="./js/form.js"></script>

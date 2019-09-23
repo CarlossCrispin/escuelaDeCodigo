@@ -1,0 +1,109 @@
+body{
+    background-color: #38425C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#cc9724;
+    
+}
+
+
+/* milimetros */
+p{
+    font-size: 5mm;
+    line-height: 10mm;
+    text-align: center;
+}
+/* clase para los titulos centrales */
+.titulo{
+    background-color: #4760a1;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    color:white;
+    border-radius: 20px;
+}
+
+/* CENTIMETROS */
+/* CLASE POR EL . */
+.centimetros {
+    /* asignando el color a la fueste = letra  */
+ 	color: cyan;
+	/* alinear el texto */
+	/* left = izquierda */
+  	text-align: left;
+    /* asignar la unidad de medida 	font size= tamaño de fuente  */
+    /* la unidad de medida siempre va a la derecha seguida del número sin espacio y la unidad de medida para centimetros es cm  */
+  	font-size: 1.5cm;
+}
+/* pulgadas */
+.pulgadas{
+    /*  */
+    font-size: 0.5in;
+    /*  */
+    text-align: right;
+    /*  */
+    color: #f04646
+}
+/* PIXELES*/
+.pixeles{
+    /*  */
+    width: 140px;
+    /*  */
+    height: 140px;
+    /*  */
+    border: 2px solid blueviolet;
+    /*  */
+    color: aquamarine
+
+}
+
+/* puntos */
+.puntos{
+    /*  */
+    font-size: 15pt;
+    line-height: 5pt;
+    color: aliceblue
+}
+
+/*picas  */
+.picas{
+    /*  */
+    font-size: 3pc;
+    /*  */
+    color:yellow;
+    /* left = izquierda */
+  	text-align: left;
+}
+
+/* relativas */
+
+.p {
+    font-size: 16px;
+    line-height: 2em;
+  }
+  
+div {
+    font-size: 30px;
+    border: 1px solid black;
+  }
+  
+span {
+    font-size: 0.5em;
+  }
+
+.divPorcentaje {
+    font-size: 150%;
+    border: 1px solid black;
+  }
+
+table {
+    background-color: aliceblue;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #978585;
+    text-align: left;
+    padding: 8px;
+}

@@ -1,0 +1,77 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+.site-header.inicio{
+    background-image: url(../img/inicio.jpg);
+    /* llama la imagen */
+    /* background-image: url(../img/inicio.jpg); */
+     /* todo el tamaño de la pantalla  VH AVARCA EL TAMAÑO DE LA IMAGEN*/
+     height: 100vh;
+     /* centra la imagen */
+     background-position: center;
+     /* imagencompleta */
+     background-size: cover;
+    
+}
+
+.contenedor{
+    max-width: 1200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin : top rigt */
+    /* AUTO TODO LO QUE PUEDA TOMAR  */
+    margin: 0 auto 0 auto;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+/* (.nav > a )padre e hijo el hijo debe de ser directo  (.nav a )es de desendencia y no importa lo profundo que este */
+.navegacion > a{
+    color: #b1f80b;
+    text-decoration: none;
+    font-size: 28px;
+    margin-right: 10px;
+}
+.navegacion > a:hover{
+    color: #f6f7f4;
+    font-size: 48px;
+}
+
+a{
+    color: rgb(223, 223, 204);
+    list-style: none;
+    text-decoration: none;
+}
+.contenido-header{
+    height: 100%;
+    /* en una sola linea */
+    display: flex;
+    /* nos pone en diferente colunma */
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.html-header{
+    background-image: url(../img/HTML.jpg);
+    /* llama la imagen */
+    /* background-image: url(../img/inicio.jpg); */
+     /* todo el tamaño de la pantalla  VH AVARCA EL TAMAÑO DE LA IMAGEN*/
+     height: 100vh;
+     /* centra la imagen */
+     background-position: center;
+     /* imagencompleta */
+     background-size: cover;
+  
+}
+
+.html-header h1{
+    color: #b1f80b;
+    
+}
+
+.texto{
+    
+}
